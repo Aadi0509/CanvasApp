@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+body{
+    background-color: rgb(208, 167, 167);
+
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.canvas {
+    border: 5px solid black;
+    margin: 30px 200px;
+    background-color: white;
+}
+
+.top,.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.block,input,select,button {
+    width: 300px;
+    height: 40px;
+    margin: 5px 5px;
+    font-family: Playwrite NZ;
+    font-weight: bolder;
+}
+select{
+    text-align: center;
+}
+
+.bottom>button {
+    margin: 10px;
+    width: 500px;
+    
+}
+
+.top>.block {
+    margin: 50px;
+}
+
+.block>p {
+    margin: 10px auto;
+    width: 200px;
+}
+.block{
+    text-align: center;
+}
+#ClrBtn,#SaveBtn{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+#ClrBtn:hover,#SaveBtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
