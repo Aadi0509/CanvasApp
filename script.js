@@ -1,5 +1,10 @@
 let history = [];
 
+let history = [];
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
+
 const canvasColor = document.getElementById('canvasColor');
 const canvas = document.getElementById('myCanvas');
 const undoButton = document.getElementById('undoButton');
@@ -7,6 +12,11 @@ const ClrBtn = document.getElementById('ClrBtn');
 const SaveBtn = document.getElementById('SaveBtn');
 const fontPicker = document.getElementById('fontPicker');
 const textInput = document.getElementById('textInput');
+const colorPicker = document.getElementById('colorPicker'); // Missing variable
+const fontSizePicker = document.getElementById('fontSizePicker'); // Missing variable
+
+const ctx = canvas.getContext('2d');
+
 
 
 const ctx = canvas.getContext('2d');
