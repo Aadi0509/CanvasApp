@@ -12,8 +12,8 @@ const ClrBtn = document.getElementById('ClrBtn');
 const SaveBtn = document.getElementById('SaveBtn');
 const fontPicker = document.getElementById('fontPicker');
 const textInput = document.getElementById('textInput');
-const colorPicker = document.getElementById('colorPicker'); // Missing variable
-const fontSizePicker = document.getElementById('fontSizePicker'); // Missing variable
+const colorPicker = document.getElementById('colorPicker'); //
+const fontSizePicker = document.getElementById('fontSizePicker');
 
 const ctx = canvas.getContext('2d');
 
